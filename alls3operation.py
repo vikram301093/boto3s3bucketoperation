@@ -2,7 +2,7 @@ import boto3
 
 s3 = boto3.client("s3")
 
-s3.create_bucket(Bucket = "myfirstbucketvikram301093", CreateBucketConfiguration={'LocationConstraint': 'us-east-1'})
+s3.create_bucket(Bucket = "myfirstbucketvikram301093")
 
 
 # Call S3 to list current buckets
